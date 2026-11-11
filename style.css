@@ -1,0 +1,33 @@
+:root{--ink:#14213d;--court:#1b5e8c;--ball:#d4e600;--line:#d5dbe3;--bg:#f6f8fa;--warn:#b45309}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.45 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--bg)}
+header{background:var(--court);color:#fff;padding:14px 20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;border-bottom:6px solid var(--ball)}
+h1{margin:0;font-size:1.5rem}
+h2{margin:0 0 10px;font-size:1.2rem}
+nav button{background:transparent;color:#fff;border:1px solid #ffffff88;padding:7px 14px;margin-left:6px;border-radius:6px;font:inherit;cursor:pointer}
+nav button.on{background:#fff;color:var(--court)}
+main{max-width:980px;margin:0 auto;padding:18px}
+section{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px;margin-bottom:16px}
+button,input,select{font:inherit}
+button.b{background:var(--court);color:#fff;border:0;padding:8px 14px;border-radius:6px;cursor:pointer}
+button.b:disabled{opacity:.4;cursor:not-allowed}
+button.g{background:#fff;color:var(--ink);border:1px solid var(--line);padding:6px 11px;border-radius:6px;cursor:pointer}
+button.x{background:none;border:0;color:#a33;cursor:pointer}
+input[type=text],input[type=number],select{padding:7px;border:1px solid var(--line);border-radius:6px}
+input[type=number]{width:70px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);border-radius:20px;padding:4px 12px;cursor:pointer;user-select:none;background:#fff}
+.chip.here{background:var(--ball);border-color:#aab800;font-weight:bold}
+.games{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+.game{border:1px solid var(--line);border-radius:8px;padding:10px}
+.game .ct{font-weight:bold;color:var(--court)}
+.team{padding:3px 6px;border-radius:4px}
+.team.win{background:var(--ball)}
+.vs{text-align:center;font-size:.85rem;color:#667}
+.note{color:var(--warn);font-size:.92rem}
+.muted{color:#667;font-size:.92rem}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+li{margin:3px 0}
+#classbar{display:flex;gap:6px;align-items:center}#classbar button{background:#ffffff22;color:#fff;border:1px solid #ffffff88;padding:6px 10px;border-radius:6px;font:inherit;cursor:pointer}#classbar select{padding:6px;border-radius:6px;border:0;font-weight:bold}
