@@ -28,3 +28,6 @@ Tip: bookmark the page (Ctrl+D) instead of making a desktop shortcut.
 ## Files
 - `index.html`, `app.js`, `style.css`: the app
 - `roster_template.csv`: example class list
+
+---
+*Note: Parts of this project and documentation were created with the assistance of [Claude](https://claude.ai) by Anthropic.*
